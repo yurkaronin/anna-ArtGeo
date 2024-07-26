@@ -1,13 +1,43 @@
 .button{
   border: 1px solid var(--line);
-  padding: 32px 40px;
+  padding: 32px 20px;
   height: 80px;
   background: var(--white);
   color: var(--darkorange);
   width: 224px;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap:10px;
+
   &:hover{
     color: var(--orange);
     transition: all 0.5s;
     transform: scale(1.1);
   }
+  span {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--dark);
+    white-space: nowrap;
+  }
+
+  svg {
+    justify-self: flex-end;
+   }
+
+//Медиа запросы
+@media (max-width: 1023px) {
+  &{
+    width: 208px;
+    justify-content: center;
+  }
+
+}
+@media (max-width: 374px) {
+  &{
+    width: 100%;
+  }
+}
 }

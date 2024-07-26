@@ -24,4 +24,8 @@ input[type="radio"].visually-hidden {
   width: 100%;
   padding: 0 48px;
   margin: 0 auto;
+
+@media (max-width: 1023px) {
+   padding: 20PX;
+}
 }
