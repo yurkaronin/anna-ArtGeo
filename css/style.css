@@ -205,15 +205,10 @@ input[type=radio].visually-hidden {
   }
 }
 @media (max-width: 767px) {
-  .screen1__grid {
-    grid-template-rows: repeat(2, 1fr);
-  }
   .screen1__container-button {
     grid-template-columns: 1fr;
     gap: 10px;
   }
-}
-@media (max-width: 374px) {
   .screen1__grid {
     grid-template-columns: 1fr;
     padding: 0;
@@ -233,7 +228,6 @@ input[type=radio].visually-hidden {
     margin: 0;
   }
 }
-
 .button {
   border: 1px solid var(--line);
   padding: 32px 20px;
