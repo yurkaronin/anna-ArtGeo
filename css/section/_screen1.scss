@@ -87,9 +87,9 @@
 
   @media (max-width: 767px) {
 
-    // &__grid {
-    //   grid-template-rows: repeat(2, 1fr);
-    // }
+    &__grid {
+      grid-template-rows: repeat(2, 1fr);
+    }
 
 
     &__container-button{
