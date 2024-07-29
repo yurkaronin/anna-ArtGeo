@@ -92,17 +92,18 @@
     }
 
 
-    &__container-button{
+    &__container-button {
       grid-template-columns: 1fr;
-      gap:10px;
+      gap: 10px;
 
     }
 
-    &__grid{
+    &__grid {
       grid-template-columns: 1fr;
       padding: 0;
       gap: 30px;
     }
+
     &__text {
       font-size: 16px;
       line-height: 156%;
@@ -115,15 +116,12 @@
 
 
 
-  &__block2 {
-    height: 420px;
-    grid-column: 1;
-    margin: 0;
-  }
+    &__block2 {
+      height: 420px;
+      grid-column: 1;
+      margin: 0;
+    }
   }
 
-  @media (max-width: 374px) {
-
-  }
 
 }

@@ -1,4 +1,4 @@
-.button{
+.button {
   border: 1px solid var(--line);
   padding: 32px 20px;
   height: 80px;
@@ -6,14 +6,15 @@
   color: var(--darkorange);
   width: 224px;
   display: grid;
-  grid-template-columns: repeat(2,auto);
-  gap:10px;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
 
-  &:hover{
+  &:hover {
     color: var(--orange);
     transition: all 0.5s;
     transform: scale(1.1);
   }
+
   span {
     font-family: var(--font-family);
     font-weight: 500;
@@ -25,19 +26,20 @@
 
   svg {
     justify-self: flex-end;
-   }
-
-//Медиа запросы
-@media (max-width: 1023px) {
-  &{
-    width: 208px;
-    justify-content: center;
   }
 
-}
-@media (max-width: 767px) {
-  &{
-    width: 100%;
+  //Медиа запросы
+  @media (max-width: 1023px) {
+    & {
+      width: 208px;
+      justify-content: center;
+    }
+
   }
-}
+
+  @media (max-width: 767px) {
+    & {
+      width: 100%;
+    }
+  }
 }
